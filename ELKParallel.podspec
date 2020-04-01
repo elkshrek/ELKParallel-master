@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = 'ELKParallel'
     
-    s.version      = '0.0.3'
+    s.version      = '0.0.4'
     
     s.summary      = '常用OC分类'
     s.description  = <<-DESC
@@ -18,36 +18,33 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.platform     = :ios, '9.0'
     
-    s.source_files = 'ELKParallel/**/*.{h,m}'
+#    s.source_files = 'ELKParallel/**/*.{h,m}'
     
-#    s.dependency 'Masonry'
+#    s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
+#    s.libraries   = 'c++', 'z'
     
-    s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
-    s.libraries   = 'c++', 'z'
+    s.source_files = 'ELKParallel/ELKParallel.h'
     
-#    s.source_files = 'ELKParallel/ELKParallel.h'
+    s.subspec 'ELKCommon' do |cs|
+        cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
+    end
     
-#    s.subspec 'ELKCommon' do |cs|
-#        cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
-#    end
-    
-#   s.subspec 'ELKTool' do |ts|
-#        ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
+    s.subspec 'ELKTool' do |ts|
+        ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
         
-#        ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
-#        ts.libraries   = 'c++', 'z'
-#    end
+        ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
+        ts.libraries   = 'c++', 'z'
+    end
     
-#    s.subspec 'ELKCategory' do |gs|
-#        gs.dependency 'ELKParallel/ELKCommon'
-#        gs.dependency 'ELKParallel/ELKTool'
-#        gs.dependency 'Masonry'
+    s.subspec 'ELKCategory' do |gs|
+        gs.dependency 'ELKParallel/ELKCommon'
+        gs.dependency 'ELKParallel/ELKTool'
         
-#        gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
+        gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
         
-#        gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
-#        gs.libraries   = 'c++', 'z'
-#    end
+        gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
+        gs.libraries   = 'c++', 'z'
+    end
     
     
 
