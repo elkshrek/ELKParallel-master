@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 target 'ELKParallel-master' do
   
-  pod 'Masonry'
+#  pod 'Masonry'
   
   
 
