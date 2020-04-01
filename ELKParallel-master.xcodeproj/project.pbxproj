@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7CC3E82434733F00D7036E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC3E72434733F00D7036E /* AppDelegate.m */; };
+		AB7CC3EE2434733F00D7036E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC3ED2434733F00D7036E /* ViewController.m */; };
+		AB7CC3F12434733F00D7036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7CC3EF2434733F00D7036E /* Main.storyboard */; };
+		AB7CC3F32434734000D7036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7CC3F22434734000D7036E /* Assets.xcassets */; };
+		AB7CC3F62434734000D7036E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7CC3F42434734000D7036E /* LaunchScreen.storyboard */; };
+		AB7CC3F92434734000D7036E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC3F82434734000D7036E /* main.m */; };
+		AB7CC4032434734100D7036E /* ELKParallel_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC4022434734100D7036E /* ELKParallel_masterTests.m */; };
+		AB7CC40E2434734100D7036E /* ELKParallel_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC40D2434734100D7036E /* ELKParallel_masterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7CC3FF2434734100D7036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7CC3DB2434733F00D7036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7CC3E22434733F00D7036E;
+			remoteInfo = "ELKParallel-master";
+		};
+		AB7CC40A2434734100D7036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7CC3DB2434733F00D7036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7CC3E22434733F00D7036E;
+			remoteInfo = "ELKParallel-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7CC3E32434733F00D7036E /* ELKParallel-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELKParallel-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7CC3E62434733F00D7036E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB7CC3E72434733F00D7036E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB7CC3EC2434733F00D7036E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB7CC3ED2434733F00D7036E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB7CC3F02434733F00D7036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7CC3F22434734000D7036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7CC3F52434734000D7036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7CC3F72434734000D7036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7CC3F82434734000D7036E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7CC3FE2434734100D7036E /* ELKParallel-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELKParallel-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7CC4022434734100D7036E /* ELKParallel_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKParallel_masterTests.m; sourceTree = "<group>"; };
+		AB7CC4042434734100D7036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7CC4092434734100D7036E /* ELKParallel-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELKParallel-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7CC40D2434734100D7036E /* ELKParallel_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKParallel_masterUITests.m; sourceTree = "<group>"; };
+		AB7CC40F2434734100D7036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7CC3E02434733F00D7036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC3FB2434734100D7036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC4062434734100D7036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7CC3DA2434733F00D7036E = {
+			isa = PBXGroup;
+			children = (
+				AB7CC3E52434733F00D7036E /* ELKParallel-master */,
+				AB7CC4012434734100D7036E /* ELKParallel-masterTests */,
+				AB7CC40C2434734100D7036E /* ELKParallel-masterUITests */,
+				AB7CC3E42434733F00D7036E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7CC3E42434733F00D7036E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CC3E32434733F00D7036E /* ELKParallel-master.app */,
+				AB7CC3FE2434734100D7036E /* ELKParallel-masterTests.xctest */,
+				AB7CC4092434734100D7036E /* ELKParallel-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7CC3E52434733F00D7036E /* ELKParallel-master */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CC3E62434733F00D7036E /* AppDelegate.h */,
+				AB7CC3E72434733F00D7036E /* AppDelegate.m */,
+				AB7CC3EC2434733F00D7036E /* ViewController.h */,
+				AB7CC3ED2434733F00D7036E /* ViewController.m */,
+				AB7CC41B2434734F00D7036E /* Others */,
+			);
+			path = "ELKParallel-master";
+			sourceTree = "<group>";
+		};
+		AB7CC4012434734100D7036E /* ELKParallel-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CC4022434734100D7036E /* ELKParallel_masterTests.m */,
+				AB7CC4042434734100D7036E /* Info.plist */,
+			);
+			path = "ELKParallel-masterTests";
+			sourceTree = "<group>";
+		};
+		AB7CC40C2434734100D7036E /* ELKParallel-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CC40D2434734100D7036E /* ELKParallel_masterUITests.m */,
+				AB7CC40F2434734100D7036E /* Info.plist */,
+			);
+			path = "ELKParallel-masterUITests";
+			sourceTree = "<group>";
+		};
+		AB7CC41B2434734F00D7036E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CC3EF2434733F00D7036E /* Main.storyboard */,
+				AB7CC3F22434734000D7036E /* Assets.xcassets */,
+				AB7CC3F42434734000D7036E /* LaunchScreen.storyboard */,
+				AB7CC3F72434734000D7036E /* Info.plist */,
+				AB7CC3F82434734000D7036E /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7CC3E22434733F00D7036E /* ELKParallel-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7CC4122434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-master" */;
+			buildPhases = (
+				AB7CC3DF2434733F00D7036E /* Sources */,
+				AB7CC3E02434733F00D7036E /* Frameworks */,
+				AB7CC3E12434733F00D7036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELKParallel-master";
+			productName = "ELKParallel-master";
+			productReference = AB7CC3E32434733F00D7036E /* ELKParallel-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7CC3FD2434734100D7036E /* ELKParallel-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7CC4152434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-masterTests" */;
+			buildPhases = (
+				AB7CC3FA2434734100D7036E /* Sources */,
+				AB7CC3FB2434734100D7036E /* Frameworks */,
+				AB7CC3FC2434734100D7036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7CC4002434734100D7036E /* PBXTargetDependency */,
+			);
+			name = "ELKParallel-masterTests";
+			productName = "ELKParallel-masterTests";
+			productReference = AB7CC3FE2434734100D7036E /* ELKParallel-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB7CC4082434734100D7036E /* ELKParallel-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7CC4182434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-masterUITests" */;
+			buildPhases = (
+				AB7CC4052434734100D7036E /* Sources */,
+				AB7CC4062434734100D7036E /* Frameworks */,
+				AB7CC4072434734100D7036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7CC40B2434734100D7036E /* PBXTargetDependency */,
+			);
+			name = "ELKParallel-masterUITests";
+			productName = "ELKParallel-masterUITests";
+			productReference = AB7CC4092434734100D7036E /* ELKParallel-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7CC3DB2434733F00D7036E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ELK;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wing;
+				TargetAttributes = {
+					AB7CC3E22434733F00D7036E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					AB7CC3FD2434734100D7036E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AB7CC3E22434733F00D7036E;
+					};
+					AB7CC4082434734100D7036E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AB7CC3E22434733F00D7036E;
+					};
+				};
+			};
+			buildConfigurationList = AB7CC3DE2434733F00D7036E /* Build configuration list for PBXProject "ELKParallel-master" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7CC3DA2434733F00D7036E;
+			productRefGroup = AB7CC3E42434733F00D7036E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7CC3E22434733F00D7036E /* ELKParallel-master */,
+				AB7CC3FD2434734100D7036E /* ELKParallel-masterTests */,
+				AB7CC4082434734100D7036E /* ELKParallel-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7CC3E12434733F00D7036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7CC3F62434734000D7036E /* LaunchScreen.storyboard in Resources */,
+				AB7CC3F32434734000D7036E /* Assets.xcassets in Resources */,
+				AB7CC3F12434733F00D7036E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC3FC2434734100D7036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC4072434734100D7036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7CC3DF2434733F00D7036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7CC3EE2434733F00D7036E /* ViewController.m in Sources */,
+				AB7CC3E82434733F00D7036E /* AppDelegate.m in Sources */,
+				AB7CC3F92434734000D7036E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC3FA2434734100D7036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7CC4032434734100D7036E /* ELKParallel_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7CC4052434734100D7036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7CC40E2434734100D7036E /* ELKParallel_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7CC4002434734100D7036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7CC3E22434733F00D7036E /* ELKParallel-master */;
+			targetProxy = AB7CC3FF2434734100D7036E /* PBXContainerItemProxy */;
+		};
+		AB7CC40B2434734100D7036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7CC3E22434733F00D7036E /* ELKParallel-master */;
+			targetProxy = AB7CC40A2434734100D7036E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7CC3EF2434733F00D7036E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7CC3F02434733F00D7036E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7CC3F42434734000D7036E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7CC3F52434734000D7036E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7CC4102434734100D7036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB7CC4112434734100D7036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7CC4132434734100D7036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-master/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7CC4142434734100D7036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-master/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB7CC4162434734100D7036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-masterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELKParallel-master.app/ELKParallel-master";
+			};
+			name = Debug;
+		};
+		AB7CC4172434734100D7036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-masterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELKParallel-master.app/ELKParallel-master";
+			};
+			name = Release;
+		};
+		AB7CC4192434734100D7036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ELKParallel-master";
+			};
+			name = Debug;
+		};
+		AB7CC41A2434734100D7036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = "ELKParallel-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elk.ELKParallel-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ELKParallel-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7CC3DE2434733F00D7036E /* Build configuration list for PBXProject "ELKParallel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7CC4102434734100D7036E /* Debug */,
+				AB7CC4112434734100D7036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7CC4122434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7CC4132434734100D7036E /* Debug */,
+				AB7CC4142434734100D7036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7CC4152434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7CC4162434734100D7036E /* Debug */,
+				AB7CC4172434734100D7036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7CC4182434734100D7036E /* Build configuration list for PBXNativeTarget "ELKParallel-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7CC4192434734100D7036E /* Debug */,
+				AB7CC41A2434734100D7036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7CC3DB2434733F00D7036E /* Project object */;
+}
