@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = 'ELKParallel'
     
-    s.version      = '0.0.4'
+    s.version      = '0.0.5'
     
     s.summary      = '常用OC分类'
     s.description  = <<-DESC
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
     s.subspec 'ELKCategory' do |gs|
         gs.dependency 'ELKParallel/ELKCommon'
         gs.dependency 'ELKParallel/ELKTool'
+        gs.dependency 'Masonry'
         
         gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
         
