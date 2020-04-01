@@ -18,29 +18,31 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.platform     = :ios, '9.0'
     
-    s.source_files = 'ELKParallel/ELKParallel.h'
+    s.source_files = 'ELKParallel/**/*.{h,m}'
     
-    s.subspec 'ELKCommon' do |cs|
-        cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
-    end
+#    s.source_files = 'ELKParallel/ELKParallel.h'
     
-    s.subspec 'ELKTool' do |ts|
-        ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
-        
-        ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
-        ts.libraries   = 'c++', 'z'
-    end
+#    s.subspec 'ELKCommon' do |cs|
+#        cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
+#    end
     
-    s.subspec 'ELKCategory' do |gs|
-        gs.dependency 'ELKParallel/ELKCommon'
-        gs.dependency 'ELKParallel/ELKTool'
-        gs.dependency 'Masonry'
+#   s.subspec 'ELKTool' do |ts|
+#        ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
         
-        gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
+#        ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
+#        ts.libraries   = 'c++', 'z'
+#    end
+    
+#    s.subspec 'ELKCategory' do |gs|
+#        gs.dependency 'ELKParallel/ELKCommon'
+#        gs.dependency 'ELKParallel/ELKTool'
+#        gs.dependency 'Masonry'
         
-        gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
-        gs.libraries   = 'c++', 'z'
-    end
+#        gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
+        
+#        gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
+#        gs.libraries   = 'c++', 'z'
+#    end
     
     
 
