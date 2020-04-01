@@ -16,26 +16,26 @@
 		AB7CC3F92434734000D7036E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC3F82434734000D7036E /* main.m */; };
 		AB7CC4032434734100D7036E /* ELKParallel_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC4022434734100D7036E /* ELKParallel_masterTests.m */; };
 		AB7CC40E2434734100D7036E /* ELKParallel_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC40D2434734100D7036E /* ELKParallel_masterUITests.m */; };
-		AB7CC452243474D800D7036E /* UIImage+ELKOriSensitive.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC420243474D800D7036E /* UIImage+ELKOriSensitive.m */; };
-		AB7CC453243474D800D7036E /* UIScrollView+ELKLoadMore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC423243474D800D7036E /* UIScrollView+ELKLoadMore.m */; };
-		AB7CC454243474D800D7036E /* UITextField+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC426243474D800D7036E /* UITextField+ELKPlaceHolder.m */; };
-		AB7CC455243474D800D7036E /* UITextView+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC427243474D800D7036E /* UITextView+ELKPlaceHolder.m */; };
-		AB7CC456243474D800D7036E /* UILabel+ELKAddDeleteLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC42B243474D800D7036E /* UILabel+ELKAddDeleteLine.m */; };
-		AB7CC459243474D800D7036E /* UIButton+ELKStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC432243474D800D7036E /* UIButton+ELKStyle.m */; };
-		AB7CC45A243474D800D7036E /* UIButton+Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC433243474D800D7036E /* UIButton+Animate.m */; };
-		AB7CC45B243474D800D7036E /* UIColor+ELKCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC437243474D800D7036E /* UIColor+ELKCustom.m */; };
-		AB7CC45C243474D800D7036E /* UIView+ELKGestureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC43A243474D800D7036E /* UIView+ELKGestureEvent.m */; };
-		AB7CC45D243474D800D7036E /* UIView+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC43D243474D800D7036E /* UIView+ELKAdditions.m */; };
-		AB7CC45E243474D800D7036E /* NSData+ELKBCBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC440243474D800D7036E /* NSData+ELKBCBase64.m */; };
-		AB7CC45F243474D800D7036E /* NSString+ELKTimeFormet.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC443243474D800D7036E /* NSString+ELKTimeFormet.m */; };
-		AB7CC460243474D800D7036E /* NSString+ELKRuby.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC444243474D800D7036E /* NSString+ELKRuby.m */; };
-		AB7CC461243474D800D7036E /* NSString+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC446243474D800D7036E /* NSString+ELKAdditions.m */; };
-		AB7CC462243474D800D7036E /* NSString+ELKFast.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC449243474D800D7036E /* NSString+ELKFast.m */; };
-		AB7CC463243474D800D7036E /* UIViewController+ELKAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC44C243474D800D7036E /* UIViewController+ELKAlertController.m */; };
-		AB7CC464243474D800D7036E /* NSArray+ELKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC450243474D800D7036E /* NSArray+ELKLog.m */; };
-		AB7CC465243474D800D7036E /* NSDictionary+ELKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC451243474D800D7036E /* NSDictionary+ELKLog.m */; };
-		AB7CC517243480BA00D7036E /* ELK_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC50D243480BA00D7036E /* ELK_Reachability.m */; };
-		AB7CC51A243480BA00D7036E /* ELKBCSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC513243480BA00D7036E /* ELKBCSwizzling.m */; };
+		AB7CC56B24349F4400D7036E /* UIImage+ELKOriSensitive.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC53524349F4400D7036E /* UIImage+ELKOriSensitive.m */; };
+		AB7CC56C24349F4400D7036E /* UIScrollView+ELKLoadMore.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC53824349F4400D7036E /* UIScrollView+ELKLoadMore.m */; };
+		AB7CC56D24349F4400D7036E /* UITextField+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC53B24349F4400D7036E /* UITextField+ELKPlaceHolder.m */; };
+		AB7CC56E24349F4400D7036E /* UITextView+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC53C24349F4400D7036E /* UITextView+ELKPlaceHolder.m */; };
+		AB7CC56F24349F4400D7036E /* UILabel+ELKAddDeleteLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54024349F4400D7036E /* UILabel+ELKAddDeleteLine.m */; };
+		AB7CC57024349F4400D7036E /* UIButton+ELKStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54224349F4400D7036E /* UIButton+ELKStyle.m */; };
+		AB7CC57124349F4400D7036E /* UIButton+Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54324349F4400D7036E /* UIButton+Animate.m */; };
+		AB7CC57224349F4400D7036E /* UIColor+ELKCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54724349F4400D7036E /* UIColor+ELKCustom.m */; };
+		AB7CC57324349F4400D7036E /* UIView+ELKGestureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */; };
+		AB7CC57424349F4400D7036E /* UIView+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */; };
+		AB7CC57524349F4400D7036E /* NSData+ELKBCBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55024349F4400D7036E /* NSData+ELKBCBase64.m */; };
+		AB7CC57624349F4400D7036E /* NSString+ELKTimeFormet.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55324349F4400D7036E /* NSString+ELKTimeFormet.m */; };
+		AB7CC57724349F4400D7036E /* NSString+ELKRuby.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55424349F4400D7036E /* NSString+ELKRuby.m */; };
+		AB7CC57824349F4400D7036E /* NSString+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55624349F4400D7036E /* NSString+ELKAdditions.m */; };
+		AB7CC57924349F4400D7036E /* NSString+ELKFast.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55924349F4400D7036E /* NSString+ELKFast.m */; };
+		AB7CC57A24349F4400D7036E /* UIViewController+ELKAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55C24349F4400D7036E /* UIViewController+ELKAlertController.m */; };
+		AB7CC57B24349F4400D7036E /* NSArray+ELKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56024349F4400D7036E /* NSArray+ELKLog.m */; };
+		AB7CC57C24349F4400D7036E /* NSDictionary+ELKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56124349F4400D7036E /* NSDictionary+ELKLog.m */; };
+		AB7CC57D24349F4400D7036E /* ELK_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56724349F4400D7036E /* ELK_Reachability.m */; };
+		AB7CC57E24349F4400D7036E /* ELKBCSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56924349F4400D7036E /* ELKBCSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,49 +73,49 @@
 		AB7CC4092434734100D7036E /* ELKParallel-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ELKParallel-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7CC40D2434734100D7036E /* ELKParallel_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKParallel_masterUITests.m; sourceTree = "<group>"; };
 		AB7CC40F2434734100D7036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB7CC41F243474D800D7036E /* UIImage+ELKOriSensitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELKOriSensitive.h"; sourceTree = "<group>"; };
-		AB7CC420243474D800D7036E /* UIImage+ELKOriSensitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELKOriSensitive.m"; sourceTree = "<group>"; };
-		AB7CC422243474D800D7036E /* UIScrollView+ELKLoadMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ELKLoadMore.h"; sourceTree = "<group>"; };
-		AB7CC423243474D800D7036E /* UIScrollView+ELKLoadMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ELKLoadMore.m"; sourceTree = "<group>"; };
-		AB7CC425243474D800D7036E /* UITextView+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKPlaceHolder.h"; sourceTree = "<group>"; };
-		AB7CC426243474D800D7036E /* UITextField+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ELKPlaceHolder.m"; sourceTree = "<group>"; };
-		AB7CC427243474D800D7036E /* UITextView+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ELKPlaceHolder.m"; sourceTree = "<group>"; };
-		AB7CC428243474D800D7036E /* UITextField+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ELKPlaceHolder.h"; sourceTree = "<group>"; };
-		AB7CC42A243474D800D7036E /* UILabel+ELKAddDeleteLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELKAddDeleteLine.h"; sourceTree = "<group>"; };
-		AB7CC42B243474D800D7036E /* UILabel+ELKAddDeleteLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELKAddDeleteLine.m"; sourceTree = "<group>"; };
-		AB7CC432243474D800D7036E /* UIButton+ELKStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ELKStyle.m"; sourceTree = "<group>"; };
-		AB7CC433243474D800D7036E /* UIButton+Animate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Animate.m"; sourceTree = "<group>"; };
-		AB7CC434243474D800D7036E /* UIButton+ELKStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ELKStyle.h"; sourceTree = "<group>"; };
-		AB7CC435243474D800D7036E /* UIButton+Animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Animate.h"; sourceTree = "<group>"; };
-		AB7CC437243474D800D7036E /* UIColor+ELKCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELKCustom.m"; sourceTree = "<group>"; };
-		AB7CC438243474D800D7036E /* UIColor+ELKCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELKCustom.h"; sourceTree = "<group>"; };
-		AB7CC43A243474D800D7036E /* UIView+ELKGestureEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKGestureEvent.m"; sourceTree = "<group>"; };
-		AB7CC43B243474D800D7036E /* UIView+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKAdditions.h"; sourceTree = "<group>"; };
-		AB7CC43C243474D800D7036E /* UIView+ELKGestureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKGestureEvent.h"; sourceTree = "<group>"; };
-		AB7CC43D243474D800D7036E /* UIView+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKAdditions.m"; sourceTree = "<group>"; };
-		AB7CC43F243474D800D7036E /* NSData+ELKBCBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELKBCBase64.h"; sourceTree = "<group>"; };
-		AB7CC440243474D800D7036E /* NSData+ELKBCBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELKBCBase64.m"; sourceTree = "<group>"; };
-		AB7CC442243474D800D7036E /* NSString+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKAdditions.h"; sourceTree = "<group>"; };
-		AB7CC443243474D800D7036E /* NSString+ELKTimeFormet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKTimeFormet.m"; sourceTree = "<group>"; };
-		AB7CC444243474D800D7036E /* NSString+ELKRuby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKRuby.m"; sourceTree = "<group>"; };
-		AB7CC445243474D800D7036E /* NSString+ELKFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKFast.h"; sourceTree = "<group>"; };
-		AB7CC446243474D800D7036E /* NSString+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKAdditions.m"; sourceTree = "<group>"; };
-		AB7CC447243474D800D7036E /* NSString+ELKRuby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKRuby.h"; sourceTree = "<group>"; };
-		AB7CC448243474D800D7036E /* NSString+ELKTimeFormet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKTimeFormet.h"; sourceTree = "<group>"; };
-		AB7CC449243474D800D7036E /* NSString+ELKFast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKFast.m"; sourceTree = "<group>"; };
-		AB7CC44B243474D800D7036E /* UIViewController+ELKAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELKAlertController.h"; sourceTree = "<group>"; };
-		AB7CC44C243474D800D7036E /* UIViewController+ELKAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELKAlertController.m"; sourceTree = "<group>"; };
-		AB7CC44E243474D800D7036E /* NSArray+ELKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ELKLog.h"; sourceTree = "<group>"; };
-		AB7CC44F243474D800D7036E /* NSDictionary+ELKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ELKLog.h"; sourceTree = "<group>"; };
-		AB7CC450243474D800D7036E /* NSArray+ELKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ELKLog.m"; sourceTree = "<group>"; };
-		AB7CC451243474D800D7036E /* NSDictionary+ELKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ELKLog.m"; sourceTree = "<group>"; };
-		AB7CC46924347D9F00D7036E /* ELKDefinitionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKDefinitionHeader.h; sourceTree = "<group>"; };
-		AB7CC46B24347D9F00D7036E /* ELKNormalColorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKNormalColorHeader.h; sourceTree = "<group>"; };
-		AB7CC46D24347EE900D7036E /* ELKParallel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKParallel.h; sourceTree = "<group>"; };
-		AB7CC50D243480BA00D7036E /* ELK_Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELK_Reachability.m; sourceTree = "<group>"; };
-		AB7CC50E243480BA00D7036E /* ELKBCSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKBCSwizzling.h; sourceTree = "<group>"; };
-		AB7CC513243480BA00D7036E /* ELKBCSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKBCSwizzling.m; sourceTree = "<group>"; };
-		AB7CC514243480BA00D7036E /* ELK_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELK_Reachability.h; sourceTree = "<group>"; };
+		AB7CC53424349F4400D7036E /* UIImage+ELKOriSensitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELKOriSensitive.h"; sourceTree = "<group>"; };
+		AB7CC53524349F4400D7036E /* UIImage+ELKOriSensitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELKOriSensitive.m"; sourceTree = "<group>"; };
+		AB7CC53724349F4400D7036E /* UIScrollView+ELKLoadMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ELKLoadMore.h"; sourceTree = "<group>"; };
+		AB7CC53824349F4400D7036E /* UIScrollView+ELKLoadMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ELKLoadMore.m"; sourceTree = "<group>"; };
+		AB7CC53A24349F4400D7036E /* UITextView+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKPlaceHolder.h"; sourceTree = "<group>"; };
+		AB7CC53B24349F4400D7036E /* UITextField+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ELKPlaceHolder.m"; sourceTree = "<group>"; };
+		AB7CC53C24349F4400D7036E /* UITextView+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ELKPlaceHolder.m"; sourceTree = "<group>"; };
+		AB7CC53D24349F4400D7036E /* UITextField+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ELKPlaceHolder.h"; sourceTree = "<group>"; };
+		AB7CC53F24349F4400D7036E /* UILabel+ELKAddDeleteLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ELKAddDeleteLine.h"; sourceTree = "<group>"; };
+		AB7CC54024349F4400D7036E /* UILabel+ELKAddDeleteLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ELKAddDeleteLine.m"; sourceTree = "<group>"; };
+		AB7CC54224349F4400D7036E /* UIButton+ELKStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ELKStyle.m"; sourceTree = "<group>"; };
+		AB7CC54324349F4400D7036E /* UIButton+Animate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Animate.m"; sourceTree = "<group>"; };
+		AB7CC54424349F4400D7036E /* UIButton+ELKStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ELKStyle.h"; sourceTree = "<group>"; };
+		AB7CC54524349F4400D7036E /* UIButton+Animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Animate.h"; sourceTree = "<group>"; };
+		AB7CC54724349F4400D7036E /* UIColor+ELKCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELKCustom.m"; sourceTree = "<group>"; };
+		AB7CC54824349F4400D7036E /* UIColor+ELKCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELKCustom.h"; sourceTree = "<group>"; };
+		AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKGestureEvent.m"; sourceTree = "<group>"; };
+		AB7CC54B24349F4400D7036E /* UIView+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKAdditions.h"; sourceTree = "<group>"; };
+		AB7CC54C24349F4400D7036E /* UIView+ELKGestureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKGestureEvent.h"; sourceTree = "<group>"; };
+		AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKAdditions.m"; sourceTree = "<group>"; };
+		AB7CC54F24349F4400D7036E /* NSData+ELKBCBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELKBCBase64.h"; sourceTree = "<group>"; };
+		AB7CC55024349F4400D7036E /* NSData+ELKBCBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELKBCBase64.m"; sourceTree = "<group>"; };
+		AB7CC55224349F4400D7036E /* NSString+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKAdditions.h"; sourceTree = "<group>"; };
+		AB7CC55324349F4400D7036E /* NSString+ELKTimeFormet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKTimeFormet.m"; sourceTree = "<group>"; };
+		AB7CC55424349F4400D7036E /* NSString+ELKRuby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKRuby.m"; sourceTree = "<group>"; };
+		AB7CC55524349F4400D7036E /* NSString+ELKFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKFast.h"; sourceTree = "<group>"; };
+		AB7CC55624349F4400D7036E /* NSString+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKAdditions.m"; sourceTree = "<group>"; };
+		AB7CC55724349F4400D7036E /* NSString+ELKRuby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKRuby.h"; sourceTree = "<group>"; };
+		AB7CC55824349F4400D7036E /* NSString+ELKTimeFormet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKTimeFormet.h"; sourceTree = "<group>"; };
+		AB7CC55924349F4400D7036E /* NSString+ELKFast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELKFast.m"; sourceTree = "<group>"; };
+		AB7CC55B24349F4400D7036E /* UIViewController+ELKAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ELKAlertController.h"; sourceTree = "<group>"; };
+		AB7CC55C24349F4400D7036E /* UIViewController+ELKAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ELKAlertController.m"; sourceTree = "<group>"; };
+		AB7CC55E24349F4400D7036E /* NSArray+ELKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ELKLog.h"; sourceTree = "<group>"; };
+		AB7CC55F24349F4400D7036E /* NSDictionary+ELKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ELKLog.h"; sourceTree = "<group>"; };
+		AB7CC56024349F4400D7036E /* NSArray+ELKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ELKLog.m"; sourceTree = "<group>"; };
+		AB7CC56124349F4400D7036E /* NSDictionary+ELKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ELKLog.m"; sourceTree = "<group>"; };
+		AB7CC56324349F4400D7036E /* ELKDefinitionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKDefinitionHeader.h; sourceTree = "<group>"; };
+		AB7CC56424349F4400D7036E /* ELKNormalColorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKNormalColorHeader.h; sourceTree = "<group>"; };
+		AB7CC56524349F4400D7036E /* ELKParallel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKParallel.h; sourceTree = "<group>"; };
+		AB7CC56724349F4400D7036E /* ELK_Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELK_Reachability.m; sourceTree = "<group>"; };
+		AB7CC56824349F4400D7036E /* ELKBCSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKBCSwizzling.h; sourceTree = "<group>"; };
+		AB7CC56924349F4400D7036E /* ELKBCSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKBCSwizzling.m; sourceTree = "<group>"; };
+		AB7CC56A24349F4400D7036E /* ELK_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELK_Reachability.h; sourceTree = "<group>"; };
 		C508514479CAE37F201AB4D1 /* libPods-ELKParallel-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKParallel-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0E22163F9A6041053E6E68 /* Pods-ELKParallel-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKParallel-master.debug.xcconfig"; path = "Target Support Files/Pods-ELKParallel-master/Pods-ELKParallel-master.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,10 +190,10 @@
 			children = (
 				AB7CC3E62434733F00D7036E /* AppDelegate.h */,
 				AB7CC3E72434733F00D7036E /* AppDelegate.m */,
+				AB7CC53124349F4400D7036E /* ELKParallel */,
+				AB7CC41B2434734F00D7036E /* Others */,
 				AB7CC3EC2434733F00D7036E /* ViewController.h */,
 				AB7CC3ED2434733F00D7036E /* ViewController.m */,
-				AB7CC41C243474BA00D7036E /* ELKParallel */,
-				AB7CC41B2434734F00D7036E /* Others */,
 			);
 			path = "ELKParallel-master";
 			sourceTree = "<group>";
@@ -228,164 +228,164 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		AB7CC41C243474BA00D7036E /* ELKParallel */ = {
+		AB7CC53124349F4400D7036E /* ELKParallel */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC46D24347EE900D7036E /* ELKParallel.h */,
-				AB7CC41D243474D800D7036E /* ELKCategory */,
-				AB7CC46624347D7E00D7036E /* ELKCommon */,
-				AB7CC50B243480BA00D7036E /* ELKTool */,
+				AB7CC53224349F4400D7036E /* ELKCategory */,
+				AB7CC56224349F4400D7036E /* ELKCommon */,
+				AB7CC56524349F4400D7036E /* ELKParallel.h */,
+				AB7CC56624349F4400D7036E /* ELKTool */,
 			);
 			path = ELKParallel;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		AB7CC41D243474D800D7036E /* ELKCategory */ = {
+		AB7CC53224349F4400D7036E /* ELKCategory */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC44D243474D800D7036E /* ELKLog */,
-				AB7CC43E243474D800D7036E /* NSData */,
-				AB7CC441243474D800D7036E /* NSString */,
-				AB7CC424243474D800D7036E /* TextView */,
-				AB7CC431243474D800D7036E /* UIButton */,
-				AB7CC436243474D800D7036E /* UIColor */,
-				AB7CC41E243474D800D7036E /* UIImage */,
-				AB7CC429243474D800D7036E /* UILabel */,
-				AB7CC421243474D800D7036E /* UIScrollView */,
-				AB7CC439243474D800D7036E /* UIView */,
-				AB7CC44A243474D800D7036E /* UIViewController */,
+				AB7CC53324349F4400D7036E /* UIImage */,
+				AB7CC53624349F4400D7036E /* UIScrollView */,
+				AB7CC53924349F4400D7036E /* TextView */,
+				AB7CC53E24349F4400D7036E /* UILabel */,
+				AB7CC54124349F4400D7036E /* UIButton */,
+				AB7CC54624349F4400D7036E /* UIColor */,
+				AB7CC54924349F4400D7036E /* UIView */,
+				AB7CC54E24349F4400D7036E /* NSData */,
+				AB7CC55124349F4400D7036E /* NSString */,
+				AB7CC55A24349F4400D7036E /* UIViewController */,
+				AB7CC55D24349F4400D7036E /* ELKLog */,
 			);
 			path = ELKCategory;
 			sourceTree = "<group>";
 		};
-		AB7CC41E243474D800D7036E /* UIImage */ = {
+		AB7CC53324349F4400D7036E /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC41F243474D800D7036E /* UIImage+ELKOriSensitive.h */,
-				AB7CC420243474D800D7036E /* UIImage+ELKOriSensitive.m */,
+				AB7CC53424349F4400D7036E /* UIImage+ELKOriSensitive.h */,
+				AB7CC53524349F4400D7036E /* UIImage+ELKOriSensitive.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
 		};
-		AB7CC421243474D800D7036E /* UIScrollView */ = {
+		AB7CC53624349F4400D7036E /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC422243474D800D7036E /* UIScrollView+ELKLoadMore.h */,
-				AB7CC423243474D800D7036E /* UIScrollView+ELKLoadMore.m */,
+				AB7CC53724349F4400D7036E /* UIScrollView+ELKLoadMore.h */,
+				AB7CC53824349F4400D7036E /* UIScrollView+ELKLoadMore.m */,
 			);
 			path = UIScrollView;
 			sourceTree = "<group>";
 		};
-		AB7CC424243474D800D7036E /* TextView */ = {
+		AB7CC53924349F4400D7036E /* TextView */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC428243474D800D7036E /* UITextField+ELKPlaceHolder.h */,
-				AB7CC426243474D800D7036E /* UITextField+ELKPlaceHolder.m */,
-				AB7CC425243474D800D7036E /* UITextView+ELKPlaceHolder.h */,
-				AB7CC427243474D800D7036E /* UITextView+ELKPlaceHolder.m */,
+				AB7CC53A24349F4400D7036E /* UITextView+ELKPlaceHolder.h */,
+				AB7CC53B24349F4400D7036E /* UITextField+ELKPlaceHolder.m */,
+				AB7CC53C24349F4400D7036E /* UITextView+ELKPlaceHolder.m */,
+				AB7CC53D24349F4400D7036E /* UITextField+ELKPlaceHolder.h */,
 			);
 			path = TextView;
 			sourceTree = "<group>";
 		};
-		AB7CC429243474D800D7036E /* UILabel */ = {
+		AB7CC53E24349F4400D7036E /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC42A243474D800D7036E /* UILabel+ELKAddDeleteLine.h */,
-				AB7CC42B243474D800D7036E /* UILabel+ELKAddDeleteLine.m */,
+				AB7CC53F24349F4400D7036E /* UILabel+ELKAddDeleteLine.h */,
+				AB7CC54024349F4400D7036E /* UILabel+ELKAddDeleteLine.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
 		};
-		AB7CC431243474D800D7036E /* UIButton */ = {
+		AB7CC54124349F4400D7036E /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC435243474D800D7036E /* UIButton+Animate.h */,
-				AB7CC433243474D800D7036E /* UIButton+Animate.m */,
-				AB7CC434243474D800D7036E /* UIButton+ELKStyle.h */,
-				AB7CC432243474D800D7036E /* UIButton+ELKStyle.m */,
+				AB7CC54224349F4400D7036E /* UIButton+ELKStyle.m */,
+				AB7CC54324349F4400D7036E /* UIButton+Animate.m */,
+				AB7CC54424349F4400D7036E /* UIButton+ELKStyle.h */,
+				AB7CC54524349F4400D7036E /* UIButton+Animate.h */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		AB7CC436243474D800D7036E /* UIColor */ = {
+		AB7CC54624349F4400D7036E /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC438243474D800D7036E /* UIColor+ELKCustom.h */,
-				AB7CC437243474D800D7036E /* UIColor+ELKCustom.m */,
+				AB7CC54724349F4400D7036E /* UIColor+ELKCustom.m */,
+				AB7CC54824349F4400D7036E /* UIColor+ELKCustom.h */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
 		};
-		AB7CC439243474D800D7036E /* UIView */ = {
+		AB7CC54924349F4400D7036E /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC43B243474D800D7036E /* UIView+ELKAdditions.h */,
-				AB7CC43D243474D800D7036E /* UIView+ELKAdditions.m */,
-				AB7CC43C243474D800D7036E /* UIView+ELKGestureEvent.h */,
-				AB7CC43A243474D800D7036E /* UIView+ELKGestureEvent.m */,
+				AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */,
+				AB7CC54B24349F4400D7036E /* UIView+ELKAdditions.h */,
+				AB7CC54C24349F4400D7036E /* UIView+ELKGestureEvent.h */,
+				AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		AB7CC43E243474D800D7036E /* NSData */ = {
+		AB7CC54E24349F4400D7036E /* NSData */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC43F243474D800D7036E /* NSData+ELKBCBase64.h */,
-				AB7CC440243474D800D7036E /* NSData+ELKBCBase64.m */,
+				AB7CC54F24349F4400D7036E /* NSData+ELKBCBase64.h */,
+				AB7CC55024349F4400D7036E /* NSData+ELKBCBase64.m */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
 		};
-		AB7CC441243474D800D7036E /* NSString */ = {
+		AB7CC55124349F4400D7036E /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC442243474D800D7036E /* NSString+ELKAdditions.h */,
-				AB7CC446243474D800D7036E /* NSString+ELKAdditions.m */,
-				AB7CC445243474D800D7036E /* NSString+ELKFast.h */,
-				AB7CC449243474D800D7036E /* NSString+ELKFast.m */,
-				AB7CC447243474D800D7036E /* NSString+ELKRuby.h */,
-				AB7CC444243474D800D7036E /* NSString+ELKRuby.m */,
-				AB7CC448243474D800D7036E /* NSString+ELKTimeFormet.h */,
-				AB7CC443243474D800D7036E /* NSString+ELKTimeFormet.m */,
+				AB7CC55224349F4400D7036E /* NSString+ELKAdditions.h */,
+				AB7CC55324349F4400D7036E /* NSString+ELKTimeFormet.m */,
+				AB7CC55424349F4400D7036E /* NSString+ELKRuby.m */,
+				AB7CC55524349F4400D7036E /* NSString+ELKFast.h */,
+				AB7CC55624349F4400D7036E /* NSString+ELKAdditions.m */,
+				AB7CC55724349F4400D7036E /* NSString+ELKRuby.h */,
+				AB7CC55824349F4400D7036E /* NSString+ELKTimeFormet.h */,
+				AB7CC55924349F4400D7036E /* NSString+ELKFast.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		AB7CC44A243474D800D7036E /* UIViewController */ = {
+		AB7CC55A24349F4400D7036E /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC44B243474D800D7036E /* UIViewController+ELKAlertController.h */,
-				AB7CC44C243474D800D7036E /* UIViewController+ELKAlertController.m */,
+				AB7CC55B24349F4400D7036E /* UIViewController+ELKAlertController.h */,
+				AB7CC55C24349F4400D7036E /* UIViewController+ELKAlertController.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
-		AB7CC44D243474D800D7036E /* ELKLog */ = {
+		AB7CC55D24349F4400D7036E /* ELKLog */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC44E243474D800D7036E /* NSArray+ELKLog.h */,
-				AB7CC450243474D800D7036E /* NSArray+ELKLog.m */,
-				AB7CC44F243474D800D7036E /* NSDictionary+ELKLog.h */,
-				AB7CC451243474D800D7036E /* NSDictionary+ELKLog.m */,
+				AB7CC55E24349F4400D7036E /* NSArray+ELKLog.h */,
+				AB7CC55F24349F4400D7036E /* NSDictionary+ELKLog.h */,
+				AB7CC56024349F4400D7036E /* NSArray+ELKLog.m */,
+				AB7CC56124349F4400D7036E /* NSDictionary+ELKLog.m */,
 			);
 			path = ELKLog;
 			sourceTree = "<group>";
 		};
-		AB7CC46624347D7E00D7036E /* ELKCommon */ = {
+		AB7CC56224349F4400D7036E /* ELKCommon */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC46924347D9F00D7036E /* ELKDefinitionHeader.h */,
-				AB7CC46B24347D9F00D7036E /* ELKNormalColorHeader.h */,
+				AB7CC56324349F4400D7036E /* ELKDefinitionHeader.h */,
+				AB7CC56424349F4400D7036E /* ELKNormalColorHeader.h */,
 			);
 			path = ELKCommon;
 			sourceTree = "<group>";
 		};
-		AB7CC50B243480BA00D7036E /* ELKTool */ = {
+		AB7CC56624349F4400D7036E /* ELKTool */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC514243480BA00D7036E /* ELK_Reachability.h */,
-				AB7CC50D243480BA00D7036E /* ELK_Reachability.m */,
-				AB7CC50E243480BA00D7036E /* ELKBCSwizzling.h */,
-				AB7CC513243480BA00D7036E /* ELKBCSwizzling.m */,
+				AB7CC56724349F4400D7036E /* ELK_Reachability.m */,
+				AB7CC56824349F4400D7036E /* ELKBCSwizzling.h */,
+				AB7CC56924349F4400D7036E /* ELKBCSwizzling.m */,
+				AB7CC56A24349F4400D7036E /* ELK_Reachability.h */,
 			);
 			path = ELKTool;
 			sourceTree = "<group>";
@@ -547,29 +547,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7CC45D243474D800D7036E /* UIView+ELKAdditions.m in Sources */,
-				AB7CC455243474D800D7036E /* UITextView+ELKPlaceHolder.m in Sources */,
-				AB7CC51A243480BA00D7036E /* ELKBCSwizzling.m in Sources */,
-				AB7CC452243474D800D7036E /* UIImage+ELKOriSensitive.m in Sources */,
-				AB7CC453243474D800D7036E /* UIScrollView+ELKLoadMore.m in Sources */,
-				AB7CC45C243474D800D7036E /* UIView+ELKGestureEvent.m in Sources */,
-				AB7CC461243474D800D7036E /* NSString+ELKAdditions.m in Sources */,
-				AB7CC459243474D800D7036E /* UIButton+ELKStyle.m in Sources */,
-				AB7CC463243474D800D7036E /* UIViewController+ELKAlertController.m in Sources */,
-				AB7CC465243474D800D7036E /* NSDictionary+ELKLog.m in Sources */,
-				AB7CC45F243474D800D7036E /* NSString+ELKTimeFormet.m in Sources */,
-				AB7CC45A243474D800D7036E /* UIButton+Animate.m in Sources */,
-				AB7CC454243474D800D7036E /* UITextField+ELKPlaceHolder.m in Sources */,
+				AB7CC57424349F4400D7036E /* UIView+ELKAdditions.m in Sources */,
+				AB7CC57224349F4400D7036E /* UIColor+ELKCustom.m in Sources */,
+				AB7CC56E24349F4400D7036E /* UITextView+ELKPlaceHolder.m in Sources */,
+				AB7CC56B24349F4400D7036E /* UIImage+ELKOriSensitive.m in Sources */,
+				AB7CC56C24349F4400D7036E /* UIScrollView+ELKLoadMore.m in Sources */,
+				AB7CC57C24349F4400D7036E /* NSDictionary+ELKLog.m in Sources */,
+				AB7CC57324349F4400D7036E /* UIView+ELKGestureEvent.m in Sources */,
+				AB7CC57E24349F4400D7036E /* ELKBCSwizzling.m in Sources */,
+				AB7CC57824349F4400D7036E /* NSString+ELKAdditions.m in Sources */,
+				AB7CC56D24349F4400D7036E /* UITextField+ELKPlaceHolder.m in Sources */,
+				AB7CC57B24349F4400D7036E /* NSArray+ELKLog.m in Sources */,
+				AB7CC57924349F4400D7036E /* NSString+ELKFast.m in Sources */,
 				AB7CC3EE2434733F00D7036E /* ViewController.m in Sources */,
-				AB7CC45E243474D800D7036E /* NSData+ELKBCBase64.m in Sources */,
-				AB7CC462243474D800D7036E /* NSString+ELKFast.m in Sources */,
 				AB7CC3E82434733F00D7036E /* AppDelegate.m in Sources */,
-				AB7CC460243474D800D7036E /* NSString+ELKRuby.m in Sources */,
-				AB7CC464243474D800D7036E /* NSArray+ELKLog.m in Sources */,
-				AB7CC45B243474D800D7036E /* UIColor+ELKCustom.m in Sources */,
-				AB7CC517243480BA00D7036E /* ELK_Reachability.m in Sources */,
-				AB7CC456243474D800D7036E /* UILabel+ELKAddDeleteLine.m in Sources */,
+				AB7CC56F24349F4400D7036E /* UILabel+ELKAddDeleteLine.m in Sources */,
+				AB7CC57124349F4400D7036E /* UIButton+Animate.m in Sources */,
+				AB7CC57524349F4400D7036E /* NSData+ELKBCBase64.m in Sources */,
 				AB7CC3F92434734000D7036E /* main.m in Sources */,
+				AB7CC57624349F4400D7036E /* NSString+ELKTimeFormet.m in Sources */,
+				AB7CC57A24349F4400D7036E /* UIViewController+ELKAlertController.m in Sources */,
+				AB7CC57724349F4400D7036E /* NSString+ELKRuby.m in Sources */,
+				AB7CC57024349F4400D7036E /* UIButton+ELKStyle.m in Sources */,
+				AB7CC57D24349F4400D7036E /* ELK_Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
