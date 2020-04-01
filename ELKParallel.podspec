@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     
     s.source_files = 'ELKParallel/**/*.{h,m}'
     
-    s.dependency 'Masonry'
+#    s.dependency 'Masonry'
     
     s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
     s.libraries   = 'c++', 'z'

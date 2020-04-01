@@ -25,7 +25,6 @@
 		AB7CC57124349F4400D7036E /* UIButton+Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54324349F4400D7036E /* UIButton+Animate.m */; };
 		AB7CC57224349F4400D7036E /* UIColor+ELKCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54724349F4400D7036E /* UIColor+ELKCustom.m */; };
 		AB7CC57324349F4400D7036E /* UIView+ELKGestureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */; };
-		AB7CC57424349F4400D7036E /* UIView+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */; };
 		AB7CC57524349F4400D7036E /* NSData+ELKBCBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55024349F4400D7036E /* NSData+ELKBCBase64.m */; };
 		AB7CC57624349F4400D7036E /* NSString+ELKTimeFormet.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55324349F4400D7036E /* NSString+ELKTimeFormet.m */; };
 		AB7CC57724349F4400D7036E /* NSString+ELKRuby.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC55424349F4400D7036E /* NSString+ELKRuby.m */; };
@@ -90,9 +89,7 @@
 		AB7CC54724349F4400D7036E /* UIColor+ELKCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ELKCustom.m"; sourceTree = "<group>"; };
 		AB7CC54824349F4400D7036E /* UIColor+ELKCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ELKCustom.h"; sourceTree = "<group>"; };
 		AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKGestureEvent.m"; sourceTree = "<group>"; };
-		AB7CC54B24349F4400D7036E /* UIView+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKAdditions.h"; sourceTree = "<group>"; };
 		AB7CC54C24349F4400D7036E /* UIView+ELKGestureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKGestureEvent.h"; sourceTree = "<group>"; };
-		AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKAdditions.m"; sourceTree = "<group>"; };
 		AB7CC54F24349F4400D7036E /* NSData+ELKBCBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELKBCBase64.h"; sourceTree = "<group>"; };
 		AB7CC55024349F4400D7036E /* NSData+ELKBCBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELKBCBase64.m"; sourceTree = "<group>"; };
 		AB7CC55224349F4400D7036E /* NSString+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELKAdditions.h"; sourceTree = "<group>"; };
@@ -318,10 +315,8 @@
 		AB7CC54924349F4400D7036E /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */,
-				AB7CC54B24349F4400D7036E /* UIView+ELKAdditions.h */,
 				AB7CC54C24349F4400D7036E /* UIView+ELKGestureEvent.h */,
-				AB7CC54D24349F4400D7036E /* UIView+ELKAdditions.m */,
+				AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -547,7 +542,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7CC57424349F4400D7036E /* UIView+ELKAdditions.m in Sources */,
 				AB7CC57224349F4400D7036E /* UIColor+ELKCustom.m in Sources */,
 				AB7CC56E24349F4400D7036E /* UITextView+ELKPlaceHolder.m in Sources */,
 				AB7CC56B24349F4400D7036E /* UIImage+ELKOriSensitive.m in Sources */,
