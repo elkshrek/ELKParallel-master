@@ -232,14 +232,14 @@
 			isa = PBXGroup;
 			children = (
 				AB7CC46D24347EE900D7036E /* ELKParallel.h */,
-				AB7CC41D243474D800D7036E /* Category */,
-				AB7CC46624347D7E00D7036E /* Common */,
-				AB7CC50B243480BA00D7036E /* Tool */,
+				AB7CC41D243474D800D7036E /* ELKCategory */,
+				AB7CC46624347D7E00D7036E /* ELKCommon */,
+				AB7CC50B243480BA00D7036E /* ELKTool */,
 			);
 			path = ELKParallel;
 			sourceTree = "<group>";
 		};
-		AB7CC41D243474D800D7036E /* Category */ = {
+		AB7CC41D243474D800D7036E /* ELKCategory */ = {
 			isa = PBXGroup;
 			children = (
 				AB7CC44D243474D800D7036E /* ELKLog */,
@@ -254,7 +254,7 @@
 				AB7CC439243474D800D7036E /* UIView */,
 				AB7CC44A243474D800D7036E /* UIViewController */,
 			);
-			path = Category;
+			path = ELKCategory;
 			sourceTree = "<group>";
 		};
 		AB7CC41E243474D800D7036E /* UIImage */ = {
@@ -370,16 +370,16 @@
 			path = ELKLog;
 			sourceTree = "<group>";
 		};
-		AB7CC46624347D7E00D7036E /* Common */ = {
+		AB7CC46624347D7E00D7036E /* ELKCommon */ = {
 			isa = PBXGroup;
 			children = (
 				AB7CC46924347D9F00D7036E /* ELKDefinitionHeader.h */,
 				AB7CC46B24347D9F00D7036E /* ELKNormalColorHeader.h */,
 			);
-			path = Common;
+			path = ELKCommon;
 			sourceTree = "<group>";
 		};
-		AB7CC50B243480BA00D7036E /* Tool */ = {
+		AB7CC50B243480BA00D7036E /* ELKTool */ = {
 			isa = PBXGroup;
 			children = (
 				AB7CC514243480BA00D7036E /* ELK_Reachability.h */,
@@ -387,7 +387,7 @@
 				AB7CC50E243480BA00D7036E /* ELKBCSwizzling.h */,
 				AB7CC513243480BA00D7036E /* ELKBCSwizzling.m */,
 			);
-			path = Tool;
+			path = ELKTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

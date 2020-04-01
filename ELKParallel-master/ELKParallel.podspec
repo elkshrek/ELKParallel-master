@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
     s.source_files = 'ELKParallel/ELKParallel.h'
     
     s.subspec 'ELKCommon' do |cs|
-        cs.source_files = 'ELKParallel/Common/**/*.{h,m}'
-        cs.public_header_files = 'ELKParallel/Common/**/*.h'
+        cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
+        cs.public_header_files = 'ELKParallel/ELKCommon/**/*.h'
     end
     
     s.subspec 'ELKTool' do |ts|
-        ts.source_files = 'ELKParallel/Tool/**/*.{h,m}'
-        ts.public_header_files = 'ELKParallel/Tool/**/*.h'
+        ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
+        ts.public_header_files = 'ELKParallel/ELKTool/**/*.h'
         
         ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
         ts.libraries   = 'c++', 'z'
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
         gs.dependency 'ELKParallel/ELKTool'
         gs.dependency 'Masonry'
         
-        gs.source_files = 'ELKParallel/Category/**/*.{h,m}'
-        gs.public_header_files = 'ELKParallel/Category/**/*.h'
+        gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
+        gs.public_header_files = 'ELKParallel/ELKCategory/**/*.h'
         
         gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
         gs.libraries   = 'c++', 'z'
