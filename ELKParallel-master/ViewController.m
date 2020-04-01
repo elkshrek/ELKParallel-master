@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ELKParallel.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = UIColor.whiteColor;
+    
+    
+    UILabel *parallel = [[UILabel alloc] initWithFrame:CGRectMake(30.f, 100.f, 100.f, 20.f)];
+    parallel.text = @"ELKParallel";
+    [self.view addSubview:parallel];
+    
 }
 
 
