@@ -18,17 +18,14 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.platform     = :ios, '9.0'
     
-    s.public_header_files = 'ELKParallel/ELKParallel.h'
     s.source_files = 'ELKParallel/ELKParallel.h'
     
     s.subspec 'ELKCommon' do |cs|
         cs.source_files = 'ELKParallel/ELKCommon/**/*.{h,m}'
-        cs.public_header_files = 'ELKParallel/ELKCommon/**/*.h'
     end
     
     s.subspec 'ELKTool' do |ts|
         ts.source_files = 'ELKParallel/ELKTool/**/*.{h,m}'
-        ts.public_header_files = 'ELKParallel/ELKTool/**/*.h'
         
         ts.ios.frameworks = 'SystemConfiguration', 'Foundation'
         ts.libraries   = 'c++', 'z'
@@ -40,7 +37,6 @@ Pod::Spec.new do |s|
         gs.dependency 'Masonry'
         
         gs.source_files = 'ELKParallel/ELKCategory/**/*.{h,m}'
-        gs.public_header_files = 'ELKParallel/ELKCategory/**/*.h'
         
         gs.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
         gs.libraries   = 'c++', 'z'
