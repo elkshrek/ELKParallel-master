@@ -35,7 +35,7 @@ FOUNDATION_EXPORT const unsigned char ELKParallelVersionString[];
 #import "UIImage+ELKOriSensitive.h"
 #import "UILabel+ELKAddDeleteLine.h"
 #import "UIScrollView+ELKLoadMore.h"
-#import "UIView+ELKAdditions.h"
+//#import "UIView+ELKAdditions.h"
 #import "UIView+ELKGestureEvent.h"
 #import "UIViewController+ELKAlertController.h"
 
