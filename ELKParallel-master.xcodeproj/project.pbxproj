@@ -35,6 +35,7 @@
 		AB7CC57C24349F4400D7036E /* NSDictionary+ELKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56124349F4400D7036E /* NSDictionary+ELKLog.m */; };
 		AB7CC57D24349F4400D7036E /* ELK_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56724349F4400D7036E /* ELK_Reachability.m */; };
 		AB7CC57E24349F4400D7036E /* ELKBCSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC56924349F4400D7036E /* ELKBCSwizzling.m */; };
+		AB7CC5812434A8DE00D7036E /* UIView+ELKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7CC57F2434A8DE00D7036E /* UIView+ELKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		AB7CC56824349F4400D7036E /* ELKBCSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKBCSwizzling.h; sourceTree = "<group>"; };
 		AB7CC56924349F4400D7036E /* ELKBCSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKBCSwizzling.m; sourceTree = "<group>"; };
 		AB7CC56A24349F4400D7036E /* ELK_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELK_Reachability.h; sourceTree = "<group>"; };
+		AB7CC57F2434A8DE00D7036E /* UIView+ELKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELKAdditions.m"; sourceTree = "<group>"; };
+		AB7CC5802434A8DE00D7036E /* UIView+ELKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELKAdditions.h"; sourceTree = "<group>"; };
 		C508514479CAE37F201AB4D1 /* libPods-ELKParallel-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKParallel-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0E22163F9A6041053E6E68 /* Pods-ELKParallel-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKParallel-master.debug.xcconfig"; path = "Target Support Files/Pods-ELKParallel-master/Pods-ELKParallel-master.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -315,6 +318,8 @@
 		AB7CC54924349F4400D7036E /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				AB7CC5802434A8DE00D7036E /* UIView+ELKAdditions.h */,
+				AB7CC57F2434A8DE00D7036E /* UIView+ELKAdditions.m */,
 				AB7CC54C24349F4400D7036E /* UIView+ELKGestureEvent.h */,
 				AB7CC54A24349F4400D7036E /* UIView+ELKGestureEvent.m */,
 			);
@@ -564,6 +569,7 @@
 				AB7CC57724349F4400D7036E /* NSString+ELKRuby.m in Sources */,
 				AB7CC57024349F4400D7036E /* UIButton+ELKStyle.m in Sources */,
 				AB7CC57D24349F4400D7036E /* ELK_Reachability.m in Sources */,
+				AB7CC5812434A8DE00D7036E /* UIView+ELKAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
