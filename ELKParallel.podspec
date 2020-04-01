@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = 'ELKParallel'
     
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     
     s.summary      = '常用OC分类'
     s.description  = <<-DESC
@@ -19,6 +19,9 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '9.0'
     
     s.source_files = 'ELKParallel/**/*.{h,m}'
+    
+    s.ios.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'SystemConfiguration', 'NetworkExtension', 'AVFoundation'
+    s.libraries   = 'c++', 'z'
     
 #    s.source_files = 'ELKParallel/ELKParallel.h'
     
